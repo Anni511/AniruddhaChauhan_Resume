@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{hyperref}
 \usepackage{tabularx}
+\usepackage{float}
 
 \begin{document}
 
@@ -8,16 +9,18 @@
 \maketitle
 
 \section{Contact Information}
-\subsubsection{A-2 Block \\  Paschim Vihar \\ New Delhi-110063}
-\subsubsection{Contact: +91-95600 46060}
-\subsubsection{ Email: \href{mailto:aniruddhac7@gmail.com}{aniruddhac7@gmail.com} 
-				\and  \href{mailto:mail@aniruddhachauhan.com}{, mail@aniruddhachauhan.com}}
-\subsubsection{LinkedIn: \href{https://www.linkedin.com/in/anni-511/}{linkedin.com/in/anni-511/}}
-\subsubsection{Website: \href{http://www.aniruddhachauhan.com/}{aniruddhachauhan.com/}}
+A-2 Block \\  Paschim Vihar \\ New Delhi-110063
+\\Contact: +91-95600 46060
+\\ Email: \href{mailto:aniruddhac7@gmail.com}{aniruddhac7@gmail.com} 
+				\and  \href{mailto:mail@aniruddhachauhan.com}{, mail@aniruddhachauhan.com}
+\\ LinkedIn: \href{https://www.linkedin.com/in/anni-511/}{linkedin.com/in/anni-511/}
+\\ Website: \href{http://www.aniruddhachauhan.com/}{aniruddhachauhan.com/}
 
 \section{Career Objective}
-\subsubsection{I am a diligent worker with a knack for problem-solving, I like treading on new paths and to take up daunting challenges. I have an inclination towards Data Science and Artificial Intelligence, I want to leverage my knowledge of these two disciplines in the field of Finance and NLP. I am passionate about solving problems in a research-based environment and want to work as a researcher in close collaboration with Industry. }
+I am a diligent worker with a knack for problem-solving, I like treading on new paths and to take up daunting challenges. I have an inclination towards Data Science and Artificial Intelligence, I want to leverage my knowledge of these two disciplines in the field of Finance and NLP. I am passionate about solving problems in a research-based environment and want to work as a researcher in close collaboration with Industry. 
 
+
+\restylefloat{table}
 \begin{table}
 \begin{tabular}{|c|p{1.25in}|p{1in}|p{1in}|}
 \hline
@@ -27,6 +30,20 @@
         CBSE Class 10  &     Bal Bharati Public School, Pitampura, New Delhi      &      2014     &      93.1 (9.8 CGPA)    \\	\hline
 \end{tabular}
 \end{table}
+
+\section{Projects}
+\subsection{News Analytics Tool}
+ This is an ongoing project where I'm bulding a media tool similar to MIT's Media Cloud but having more advanced functionalities like, Topic Modeling, Extracting Keywords, Bias Detection, Fake News Detection etc. 
+\subsection{Pollinator Bee}
+ This project involves mimicking the behaviour of a bee using a UAV in this project PlutoX was used, the drone has to hover over a flower which has an incomplete circuit that is completed when a conducive material attached to the drone comes in contact with the flower. The controlling of drone was done via ROS.
+\subsection{Classification of Fake News by Fine-tuning Deep Bidirectional Transformers based Language Model}
+  In this project, I use an NLP approach to classify fake news and real news, with the help of state-of-art BERT language model. The corpus we use contains only
+the text present in the body of the news articles. After extensive experimentation, the model was
+able to achieve an accuracy of 97.021\% .
+\subsection{Chatbot using RASA Framework}
+This project involves building a Chatbot using Django and RASA Framework, the Chatbot can be used to answer FAQs. This project involved end to end work, from data collection to preprocessing to making language models and then creating an API to send and recieve data using Django Framework. All the tasks were done in Python and HTML/CSS was also used.
+\subsection{Property Stratification}
+This project involved geo-plotting of Natural Hazards based on their severity. This is done to know which regions are prone to natural disasters, which is useful for Insurance Companies to adjust premiums while Insuring a property. I used Folium for plotting that used Leaflet.js and the data cleaning and preprocessing was done using Pandas and geoPandas. 
 
 
 \end{document}
